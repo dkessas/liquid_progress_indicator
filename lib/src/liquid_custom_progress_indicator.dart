@@ -27,7 +27,7 @@ class LiquidCustomProgressIndicator extends ProgressIndicator {
         );
 
   Color _getBackgroundColor(BuildContext context) =>
-      backgroundColor ;
+      backgroundColor! ;
 
   Color _getValueColor(BuildContext context) =>
       valueColor?.value ?? Theme.of(context).colorScheme.secondary;
